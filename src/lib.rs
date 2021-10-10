@@ -84,5 +84,7 @@
 #![feature(custom_inner_attributes)]
 #![no_std]
 
+pub use tock_registers::interfaces;
+
 pub mod asm;
 pub mod registers;
